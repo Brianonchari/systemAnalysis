@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bell Bootstrap 4 Theme</title>
+    <title>Cost-Benefit Analysis System</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -47,7 +47,7 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-md-12">
-            <a class="hero-brand" href="index.html" title="Home"><img alt="Bell Logo" src="img/logo.png"></a>
+            <a class="hero-brand" href="index.html" title="Home"><img alt="DeKUT Logo" src="img/logo.png"></a>
           </div>
         </div>
 
@@ -174,9 +174,59 @@
         </div>
       </div>
 
-      <form>
 
-      </form>
+    <form action="" method="post" class="bootstrap-frm">
+        <label>
+            <span>System Analysts:</span>
+            <input id="system-Analysts-Number" type="number" name="systemAnalystsNumber" placeholder="Number of Analysts" min="1" required/>
+            <input id="system-Analysts-Time" type="number" name="systemAnalystsTime" placeholder="Time in hours" min="1" required />
+            <input id="system-Analysts-Cost" type="number" name="systemAnalystsCost" placeholder="Cost per hour" min="1" required />
+        </label>
+        <label>
+            <span>Programmer Analysts:</span>
+            <input id="programmer-Analysts-Number" type="number" name="programmerAnalystsNumber" placeholder="Number of Programmer" min="1" required />
+            <input id="programmer-Analysts-Time" type="number" name="programmerAnalystsTime" placeholder="Time in hours" min="1" required />
+            <input id="programmer-Analysts-Cost" type="number" name="programmerAnalystsCost" placeholder="Cost per hour" min="1" required />
+        </label>
+
+        <label>
+            <span>GUI Designer:</span>
+            <input id="GUI-Designers-Number" type="number" name="GUIDesignersNumber" placeholder="No. of Designers" min="1" required />
+            <input id="GUI-Designers-Time" type="number" name="GUIDesignersTime" placeholder="Time in hours" min="1" required />
+            <input id="GUI-Designers-Cost" type="number" name="GUIDesignersCost" placeholder="Cost per hour" min="1" required />
+        </label>
+
+        <label>
+            <span>Telecomm Specialists:</span>
+            <input id="telecomm-Specialists-Number" type="number" name="telecommSpecialistsNumber" placeholder="No. of Specialists" min="1" required />
+            <input id="telecomm-Specialists-Time" type="number" name="telecommSpecialistsTime" placeholder="Time in hours" min="1" required />
+            <input id="telecomm-Specialists-Cost" type="number" name="telecommSpecialistsCost" placeholder="Cost per hour" min="1" required />
+        </label>
+
+        <label>
+            <span>System Architect:</span>
+            <input id="system-Architects-Number" type="number" name="systemArchitectsNumber" placeholder="No. of Architects" min="1" required />
+            <input id="system-Architects-Time" type="number" name="systemArchitectsTime" placeholder="Time in hours" min="1" required />
+            <input id="system-Architects-Cost" type="number" name="systemArchitectsCost" placeholder="Cost per hour" min="1" required />
+        </label>
+
+        <label>
+            <span>Database Specialists:</span>
+            <input id="database-Specialists-Number" type="number" name="databaseSpecialistsNumber" placeholder="No. of Specialists" min="1" required />
+            <input id="database-Specialists-Time" type="number" name="databaseSpecialistsTime" placeholder="Time in hours" min="1" required />
+            <input id="database-Specialists-Cost" type="number" name="databaseSpecialistsCost" placeholder="Cost per hour" min="1" required />
+        </label>
+
+        <label>
+            <span>System Librarians:</span>
+            <input id="system-Librarians-Number" type="number" name="systemLibrariansNumber" placeholder="No. of Librarians" min="1" required />
+            <input id="system-Librarians-Time" type="number" name="systemLibrariansTime" placeholder="Time in hours" min="1" required />
+            <input id="system-Librarians-Cost" type="number" name="systemLibrariansCost" placeholder="Cost per hour" min="1" required />
+        </label>
+
+
+    </form>
+
     </section>
     <!-- /Call to Action -->
 
