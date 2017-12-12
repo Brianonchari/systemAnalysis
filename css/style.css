@@ -30,9 +30,43 @@ b {
     color: darkgreen;
 }
 
-form {
-
+button {
+    float: right;
 }
+
+.btn {
+    display: inline-block;
+    font-weight: normal;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    margin: 3px;
+    font-size: 1rem;
+    border-radius: 8px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    width: 120px;
+    height: 60px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #199EB8;
+    border-color: #199EB8;
+   
+}
+    .btn-success:hover {
+        color: #fff;
+        background-color: #199EB8;
+        border-color: #199EB8;
+    }
 
 /* ==================================================
   General
@@ -46,13 +80,8 @@ a {
 /* ==================================================
   Elements
   ================================================== */
-.btn {
-  background-color: #199EB8;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-weight: 800;
-  color: #fff;
-  padding: 15px 45px;
-  border-radius: 50px;
+/*.btn {
+
 }
 
 .btn:hover {
@@ -74,8 +103,15 @@ a {
   color: #199EB8;
 }
 
-section {
-  padding: 85px 0;
+.btn-full {
+    background-color: #199EB8;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    color: #fff;
+    padding: 15px 45px;
+    border-radius: 50px;
+}*/section {
+    padding: 85px 0;
 }
 
 .card {
